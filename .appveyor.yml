@@ -1,4 +1,4 @@
-mage: Ubuntu  # образ для сборки
+image: Ubuntu  # образ для сборки
 
 stack: jdk 11  # версия JDK
 
