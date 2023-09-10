@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 import ru.netology.data.DataGenerator;
+import org.openqa.selenium.WebDriver;
 
 import java.time.Duration;
 import static com.codeborne.selenide.Selectors.byText;
