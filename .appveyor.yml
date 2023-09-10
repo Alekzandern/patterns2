@@ -1,4 +1,4 @@
-image: Ubuntu2004  # образ для сборки
+mage: Ubuntu  # образ для сборки
 
 stack: jdk 11  # версия JDK
 
@@ -13,5 +13,6 @@ install:
   - java -jar ./artifacts/app-card-delivery.jar &
   - chmod +x gradlew
 
-build_script:  # запускаем тест, флаг --info позволяет выводить больше информации
-  - ./gradlew test --info -Dselenide.headless=true
+build_script:
+  - chmod +x gradlew
+  - ./gradlew test --info "-Dselenide.headless=true"
